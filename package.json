@@ -1,0 +1,19 @@
+{
+  "name": "dandyhacks2018",
+  "version": "1.0.0",
+  "description": "Should I Shave or Should I Grow",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandy2018LAJM/dandy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandy2018LAJM/dandy/issues"
+  },
+  "homepage": "https://github.com/dandy2018LAJM/dandy#readme"
+}
