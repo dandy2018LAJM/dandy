@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dandy2018LAJM/dandy/issues"
   },
-  "homepage": "https://github.com/dandy2018LAJM/dandy#readme"
+  "homepage": "https://github.com/dandy2018LAJM/dandy#readme",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "mongodb": "^3.1.8"
+  }
 }
