@@ -1,3 +1,12 @@
+angular.module('BeardApp', [])
+.controller('MainController', function($scope) {
+    $scope.test = 'Hello World';
+  });  
+
+  function postPic(){
+    
+    var x = document.getElementById("test").innerHTML = "heelo";
+
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
 
@@ -13,11 +22,8 @@ MongoClient.connect(url, function(err, db) {
   dbo.collection("customers").insertOne(myobj, function(err, res) {
     if (err) throw err;
     console.log("1 document inserted");
+    
     db.close();
   });
 });
-
-function postPic(){
-    var s = document.getElementById("pic");
-    document.getElementById("thePics").innerHTML = s;
-}
+} 
