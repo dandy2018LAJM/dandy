@@ -25,6 +25,35 @@
             </ul>
         </nav>
 
+        <!--- This is a dummy like button-->
+        <div>
+
+            <h6 id= "shaves_label">  </h6>
+            <button id= "shave" onclick="Shave()"> Shave </button>
+            
+            <h6 id= "grow_label">  </h6>
+            <button id= "grow" onclick="Grow()"> Grow </button>
+
+        </div>
+        <script>
+
+            var shave_votes = 0;
+            var grow_votes = 0;
+
+            function Shave()
+            {
+                shave_votes += 1;
+                document.getElementById("shaves_label").innerHTML = shave_votes;
+            }
+
+            function Grow()
+            {
+                grow_votes += 1;
+                document.getElementById("grow_label").innerHTML = grow_votes;
+            }
+        </script>
+
+         <!---  **********************   -->
         <div ng-controller="MainController">
 
         <h1>Big Title</h1>
